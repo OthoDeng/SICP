@@ -1,0 +1,8 @@
+#program to test whether the interpreter is using applicative-order evaluation or normal-order evaluation
+
+(define (p) (p))
+
+(define (test) x y)
+    if (= x 0)
+        0
+        y))
