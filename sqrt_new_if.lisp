@@ -1,5 +1,5 @@
 (define new-if predicate then-clause else-clause)
-  "Define a new if-then-else clause."
+  ;;Define a new if-then-else clause.
   (cond (predicate then-clause)
         (else else-clause) 
 
