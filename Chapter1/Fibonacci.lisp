@@ -9,6 +9,7 @@
 ;Fib(n) =  1                       if n = 1
 ;          Fib(n-1) + Fib(n-2)     otherwise
 
+#lang sicp
 (define (fib n)
     (cond ((= n 0) 1)
           ((= n 1) 1)

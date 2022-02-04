@@ -1,5 +1,6 @@
 ; ^-^program to test whether the interpreter is using applicative-order evaluation or normal-order evaluation. Normal-Order returns 0 and applicative-order returns nothing 
 
+#lang sicp
 (define (p) (p))
 
 (define (test) x y)

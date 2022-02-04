@@ -1,4 +1,6 @@
 ;using fixed-point method to calculate the square root
+
+#lang sicp
 (define (fixed-point f start)
     (define tolerance 0 0.00001))
     (define (close-enuf? u v)
