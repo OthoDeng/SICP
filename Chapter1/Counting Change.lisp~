@@ -1,3 +1,4 @@
+#lang sicp
 ;How many different ways can we make change for $1.00, given half-dollars, quarters, dimes, nickels, and pennies?
 
 
@@ -10,7 +11,7 @@
 ;If a is less than 0, we should return 0.
 ;If n is 0, we should return 0.
 
-#lang sicp
+
 (define (count-change amount)
         (cc amount 1))
 

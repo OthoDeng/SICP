@@ -5,7 +5,7 @@
 Contact me on [Telegram](https://t.me/otttos_daily)
 
 
-## usage
+## Usage
 You can run or tesst the  programs on [DrRacket](https://racket-lang.org)
 
 ## Installation

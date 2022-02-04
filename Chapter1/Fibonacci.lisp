@@ -21,10 +21,11 @@
 ;See https://math.stackexchange.com/questions/2717549/prove-that-operatornamefibn-is-the-closest-integer-to-frac-phin-s for detail
 
 ;using iteration:
+#lang sicp
 (define (fib n)
     (fib-iter 1 0 n))
 
-(define (fib-iter a b amount)
+(define (fib-iter a b count)
     (if (= count 0)
         b
         (fib-iter (+ a b) a (- count 1))))
