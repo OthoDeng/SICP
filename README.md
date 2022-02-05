@@ -31,11 +31,11 @@ sudo emerge -av drracket
 Use DrRacket to install the sicp package like this:
 
 
-Open the Package Manager: in DrRacket choose the menu "File" then choose "Package Manager...".
+Open the `Package Manager`: in DrRacket choose the menu "`File`" then choose "`Package Manager`...".
 
-In the tab "Do What I Mean" find the text field and enter: sicp
+In the tab "Do What I Mean" find the text field and enter: `sicp`
 
-Finally click the "Install" button.
+Finally click the "`Install`" button.
 
 Test it. Make sure DrRacket has "Determine language from source" in the bottom left corner. Write the following program and click run:
 ```
