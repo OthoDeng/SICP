@@ -16,24 +16,33 @@ You can run or test the programs via [DrRacket](https://racket-lang.org) and
 ## Installation
 
 **Common Lisp**
+
+
 See [Gentoo Linux Project:Common Lisp](https://wiki.gentoo.org/wiki/Project:Common_Lisp/Guide)
+
+
 *Libraries*
 As of writing, there are over two-hundred Common Lisp libraries supported in Gentoo Linux. All Common Lisp libraries in Gentoo are made available within the dev-lisp category in the Gentoo repository and the dev-lisp category in the lisp overlay
 
 *Using Common Lisp*
+
+
 You will need to install dev-lisp/asdf if you are planning to use Common Lisp packages or build software. Most implementations will pull that package when installed. If ASDF is not getting installed you can do it as usual
 
 ```bash
 sudo emerge --ask dev-lisp/asdf
 ```
 
-**install Scheme on your computer**
-*MIT/GNU Scheme is an implementation of the Scheme programming language, providing an interpreter, compiler, source-code debugger, integrated Emacs-like editor, and a large runtime library.
+**install Scheme on your computer  **
+
+&#x20;*MIT/GNU Scheme is an implementation of the Scheme programming language, providing an interpreter, compiler, source-code debugger, integrated Emacs-like editor, and a large runtime library.
 MIT/GNU Scheme is best suited to programming large applications with a rapid development cycle.*
 
-see the [website](https://www.gnu.org/software/mit-scheme) for more information.
+See the [website](https://www.gnu.org/software/mit-scheme) for more information.
 
 **Install DrRacket on your computer.**
+
+
 You can install DrRacket on your computer by following the instructions on [DrRacket](https://racket-lang.org/download/).
 
 **In Debian (Ubuntu):**
@@ -54,7 +63,9 @@ sudo pacman -S racket #or racket-minimal
 sudo emerge -av drracket
 ```
 
-Use DrRacket to install the sicp package like this:
+
+
+Use DrRacket to install the `sicp package` like this:
 
 Open the `Package Manager`: in DrRacket choose the menu "`File`" then choose "`Package Manager`...".
 
