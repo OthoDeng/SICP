@@ -33,7 +33,7 @@ You will need to install dev-lisp/asdf if you are planning to use Common Lisp pa
 sudo emerge --ask dev-lisp/asdf
 ```
 
-**install Scheme on your computer  **
+**install Scheme on your computer**
 
 &#x20;*MIT/GNU Scheme is an implementation of the Scheme programming language, providing an interpreter, compiler, source-code debugger, integrated Emacs-like editor, and a large runtime library.
 MIT/GNU Scheme is best suited to programming large applications with a rapid development cycle.*
