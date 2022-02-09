@@ -3,7 +3,7 @@
 **Some Interesting Exercises in Structure and Interpretation of Computer Programs**
 ![image](https://user-images.githubusercontent.com/68733617/143594190-42b42527-a5f5-4c11-8512-4d18bf761f4b.png)
 
-Contact me on [Telegram](https://t.me/otttos_daily)
+Contact me on [Telegram](https://t.me/OttoDeng)
 
 ## Usage
 
@@ -14,6 +14,10 @@ You can run or test the programs via [DrRacket](https://racket-lang.org) and
 [Scheme](https://www.gnu.org/software/mit-scheme)
 
 ## Installation
+
+
+
+
 
 **Common Lisp**
 
@@ -33,12 +37,20 @@ You will need to install dev-lisp/asdf if you are planning to use Common Lisp pa
 sudo emerge --ask dev-lisp/asdf
 ```
 
+
+
+
+
 **install Scheme on your computer**
 
 &#x20;*MIT/GNU Scheme is an implementation of the Scheme programming language, providing an interpreter, compiler, source-code debugger, integrated Emacs-like editor, and a large runtime library.
 MIT/GNU Scheme is best suited to programming large applications with a rapid development cycle.*
 
 See the [website](https://www.gnu.org/software/mit-scheme) for more information.
+
+
+
+
 
 **Install DrRacket on your computer.**
 
