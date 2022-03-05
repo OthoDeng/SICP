@@ -17,31 +17,7 @@ You can run or test the programs via [DrRacket](https://racket-lang.org) and
 
 
 
-
-
-**Common Lisp**
-
-
-See [Gentoo Linux Project:Common Lisp](https://wiki.gentoo.org/wiki/Project:Common_Lisp/Guide)
-
-
-*Libraries*
-As of writing, there are over two-hundred Common Lisp libraries supported in Gentoo Linux. All Common Lisp libraries in Gentoo are made available within the dev-lisp category in the Gentoo repository and the dev-lisp category in the lisp overlay
-
-*Using Common Lisp*
-
-
-You will need to install dev-lisp/asdf if you are planning to use Common Lisp packages or build software. Most implementations will pull that package when installed. If ASDF is not getting installed you can do it as usual
-
-```bash
-sudo emerge --ask dev-lisp/asdf
-```
-
-
-
-
-
-**install Scheme on your computer**
+### **install Scheme on your computer**
 
 &#x20;*MIT/GNU Scheme is an implementation of the Scheme programming language, providing an interpreter, compiler, source-code debugger, integrated Emacs-like editor, and a large runtime library.
 MIT/GNU Scheme is best suited to programming large applications with a rapid development cycle.*
@@ -52,7 +28,7 @@ See the [website](https://www.gnu.org/software/mit-scheme) for more information.
 
 
 
-**Install DrRacket on your computer.**
+### **Install DrRacket on your computer.**
 
 
 You can install DrRacket on your computer by following the instructions on [DrRacket](https://racket-lang.org/download/).
@@ -96,4 +72,37 @@ The expected output is `43`.
 
 See [SICP docs](https://docs.racket-lang.org/sicp-manual/SICP_Language.html) for help.
 
-Ask straight for chat group ;)
+
+
+### **Using VSCode**
+
+
+
+Whatever Operating System you use, you can have VSCode(or other IDE) to code in.
+
+**Extentions to install：**
+
+:one:`Magic Racket` : remember to turn to Extention Setting to change `Racket path`
+
+:two:`AyaSEditor`: extention that suits racket language(also press `ctrl + \ `to type `λ` )
+
+### **About Common Lisp**
+
+
+See [Gentoo Linux Project: Common Lisp](https://wiki.gentoo.org/wiki/Project:Common_Lisp/Guide)
+
+*Libraries*
+As of writing, there are over two-hundred Common Lisp libraries supported in Gentoo Linux. All Common Lisp libraries in Gentoo are made available within the dev-lisp category in the Gentoo repository and the dev-lisp category in the lisp overlay
+
+*Using Common Lisp*
+
+
+You will need to install dev-lisp/asdf if you are planning to use Common Lisp packages or build software. Most implementations will pull that package when installed. If ASDF is not getting installed you can do it as usual
+
+```bash
+sudo emerge --ask dev-lisp/asdf
+```
+
+
+
+**HEY! THERE IS A CHAT GROUP!**  Ask straight for chat group ;)
