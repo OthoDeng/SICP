@@ -11,9 +11,9 @@
 
 #lang sicp
 (define (fib n)
-    (cond ((= n 0) 1)
-          ((= n 1) 1)
-          (else (+ (fib (- n 1)) 
+  (cond ((= n 0) 1)
+        ((= n 1) 1)
+        (else (+ (fib (- n 1)) 
                     (fib (- n 2))))))
 
 ;We can learn from it that more precisely Fib(n) is the closest interger to ϕ^n/√5 (\frac{\phi^{n}}{\sqrt{5}})
@@ -23,9 +23,9 @@
 ;using iteration:
 #lang sicp
 (define (fib n)
-    (fib-iter 1 0 n))
+  (fib-iter 1 0 n))
 
 (define (fib-iter a b count)
-    (if (= count 0)
-        b
-        (fib-iter (+ a b) a (- count 1))))
+  (if (= count 0)
+      b
+      (fib-iter (+ a b) a (- count 1))))
