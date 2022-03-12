@@ -1,5 +1,10 @@
 #lang sicp
-;extra: wu question 
+;wu question from GEB
+;source from: https://www.zhihu.com/question/20044783/answer/27386915
+
+(define init (list (list 'm 'i)))
+
+;define rule
 (define (operator lis)
 
  (define (rule_1 x)
@@ -34,3 +39,42 @@
 
   (erase (list (rule_1 lis) (rule_2 lis) (rule_3 lis) (rule_4 lis)))
 )
+
+;define dictionary
+(define dictionary init)
+(define (in? value lis)
+  (or (equal? value (car lis))
+    (and (not (null? (cdr lis)))
+         (in? value (cdr lis)))))
+
+;define operator
+(define (expand seqs)
+  (define (erase_repeat lis)
+    (cond ((null? lis)
+           '())
+          (else
+           (cons (car lis)
+                 (filter (lambda(x) (not (equal? x (car lis))))
+                         (erase_repeat (cdr lis)))))))
+  (define (pre-expand lis)
+  (if (null? lis)
+      '()
+      (append (operator (car lis))
+              (pre-expand (cdr lis)))))
+  (define result (filter
+                         (lambda(x) (not (in? x dictionary)))
+                         (erase_repeat (pre-expand seqs))))
+  (begin (set!  dictionary (append dictionary result))
+    result)
+  )
+
+;define examine
+(define object (list 'm 'u))
+
+(define (f a)
+  (if (in? object a)
+      'yeah
+      (f (expand a))))
+(f init)
+
+;it turns out to be stackoverflowed
