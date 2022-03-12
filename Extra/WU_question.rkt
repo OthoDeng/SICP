@@ -1,4 +1,5 @@
 #lang sicp
+<<<<<<< HEAD
 ;wu question from GEB
 ;source from: https://www.zhihu.com/question/20044783/answer/27386915
 
@@ -40,6 +41,7 @@
   (erase (list (rule_1 lis) (rule_2 lis) (rule_3 lis) (rule_4 lis)))
 )
 
+<<<<<<< HEAD
 ;define dictionary
 (define dictionary init)
 (define (in? value lis)
