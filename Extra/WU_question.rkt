@@ -1,5 +1,7 @@
 #lang sicp
 ;extra: wu question 
+
+;operator part
 (define (operator lis)
 
  (define (rule_1 x)
@@ -34,3 +36,5 @@
 
   (erase (list (rule_1 lis) (rule_2 lis) (rule_3 lis) (rule_4 lis)))
 )
+
+;to be continued......
