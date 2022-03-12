@@ -1,5 +1,5 @@
 #lang sicp
-<<<<<<< HEAD
+
 ;wu question from GEB
 ;source from: https://www.zhihu.com/question/20044783/answer/27386915
 
