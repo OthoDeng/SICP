@@ -2,7 +2,9 @@
 
 ### Structure and Interpretation of Computer Programs
 
+**3...2...1...GO!**
 #### Chapter 1: Building Abstractions with Procedures
+
 The first chapter aims to understand the basic concepts of procedures and how to deal with the data.
 
 In this chapter you will learn:
@@ -15,4 +17,4 @@ In this chapter you will learn:
 
 ### Support or Contact
 
-You can contact me via [email](ottodeng9@gmail.com) or [Telegram](t.me/Ottodeng)
+You can contact me via [Telegram](https://t.me/Ottodeng)
