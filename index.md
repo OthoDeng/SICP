@@ -2,7 +2,13 @@
 
 ### Structure and Interpretation of Computer Programs
 
-**3...2...1...GO!**
+
+
+
+![Qiv4FqGu](https://user-images.githubusercontent.com/68733617/159150622-00832119-edf3-4e8f-9925-97fc0acdfb7d.png)
+
+
+
 #### Chapter 1: Building Abstractions with Procedures
 
 The first chapter aims to understand the basic concepts of procedures and how to deal with the data.
