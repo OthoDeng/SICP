@@ -29,3 +29,5 @@
   (if (= count 0)
       b
       (fib-iter (+ a b) a (- count 1))))
+
+;See calculating Fibonacci numbers in a logarithmic number of step in improved_fib.rkt
